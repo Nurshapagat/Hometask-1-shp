@@ -2,7 +2,6 @@
 ## **1.Project Overview**
 This project is a refactored version of a monolithic adventure game, following SOLID principles to improve modularity, scalability, and maintainability.
 
----
 📂 SOLID-Refactored-AdventureGame
 │── 📂 src
 │   ├── 📂 player
@@ -25,8 +24,12 @@ This project is a refactored version of a monolithic adventure game, following S
 │   │   ├── ScoreManager.java
 │   ├── MainGame.java
 │
+│── 📂 docs
+│   ├── UML-Before-Refactor.png
+│   ├── UML-After-Refactor.png
+│   ├── SOLID-Refactoring-Report.pdf
+│
 │── README.md
-```
 2. Applied SOLID Principles
 ✅ Single Responsibility Principle (SRP)
 Each class is responsible for only one functionality (separate classes for Player, Enemy, Items, Combat, Levels, and Score).
